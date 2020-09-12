@@ -1,0 +1,20 @@
+import math
+import turtle
+t = turtle.Pen()
+t.left(75)
+t.forward(80)
+t.penup()
+t.left(15)
+r = math.sin(math.radians(15)) * 80
+t.forward(r)
+t.left(90)
+t.forward(r)
+t.pendown()
+t.circle(r)
+t.penup()
+t.forward(r)
+t.left(90)
+t.forward(r)
+t.left(15)
+t.pendown()
+t.forward(80)
